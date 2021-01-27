@@ -169,7 +169,7 @@ class App extends React.Component {
                   {playlistToRender.map(playlist =>
                      <Playlist playlist={playlist} />
                   )}
-               </div> : <button onClick={() => { window.location = "http://localhost:8888/login" }} className="signMeIn">Sign into Spotify</button>
+               </div> : <button onClick={() => { window.location = "https://server-spotify-app.herokuapp.com/login" }} className="signMeIn">Sign into Spotify</button>
             }
          </div>
       );
