@@ -1,13 +1,37 @@
+:root {
+    --teal : #437C90;
+   --darkblue : #255957;
+   --beige : #EEEBD3;
+   --ocre : #A98743;
+   --yellow : #F7C548;
+}
+
 .App {
   text-align: center;
- 
+
 }
 
 body {
    background-color: #EEEBD3; 
+   
+
 }
 
 
 .App div {
    margin: 2vh 0;
+}
+
+.signMeIn {
+   
+   font-weight: bold;
+   color: #255957;
+   border: 5px solid #255957;
+   margin: auto;
+   margin-top: 30vh;
+   font-size: 2rem;
+   background-color: transparent;
+   border-radius: 20px;
+   padding: 2rem;
+   cursor: pointer;
 }
